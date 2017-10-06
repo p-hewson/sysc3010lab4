@@ -23,5 +23,10 @@ public class Hello {
 		return;
 		}
 
-	public void methodC(void) { }
+	public void methodC(int n) {
+		if(n == 0)
+			return;
+		methodA(n);
+		methodC(n--);
+	}
 }
