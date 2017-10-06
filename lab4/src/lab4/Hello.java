@@ -8,7 +8,7 @@ public class Hello {
 		hello.methodB();
 		hello.methodC();
 	}
-	
+
 	//counts down postitve numbers
 	public void methodA(int n) {
 		if(n == 0){
@@ -19,7 +19,9 @@ public class Hello {
 		methodA(n--);
 	}
 
-	public void methodB(void) { }
+	public void methodB(void) {
+		return;
+		}
 
 	public void methodC(void) { }
 }
